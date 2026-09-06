@@ -1,0 +1,44 @@
+SHAP feature importance — pcos model
+Mean absolute SHAP value across 541 training rows
+
+  1. Follicle No. (R)                         0.1313
+  2. Follicle No. (L)                         0.0696
+  3. Weight gain(Y/N)                         0.0527
+  4. Skin darkening (Y/N)                     0.0521
+  5. hair growth(Y/N)                         0.0427
+  6. Cycle(R/I)                               0.0266
+  7. AMH(ng/mL)                               0.0247
+  8. Fast food (Y/N)                          0.0238
+  9. Pimples(Y/N)                             0.0161
+ 10. Cycle length(days)                       0.0156
+ 11. FSH/LH                                   0.0091
+ 12. Weight (Kg)                              0.0087
+ 13. Age (yrs)                                0.0082
+ 14. BMI                                      0.0079
+ 15. LH(mIU/mL)                               0.0076
+ 16. Avg. F size (L) (mm)                     0.0073
+ 17. Endometrium (mm)                         0.0069
+ 18. Marraige Status (Yrs)                    0.0064
+ 19. FSH(mIU/mL)                              0.0063
+ 20. Waist(inch)                              0.0063
+ 21. RBS(mg/dl)                               0.0058
+ 22. Avg. F size (R) (mm)                     0.0058
+ 23. TSH (mIU/L)                              0.0057
+ 24. Pulse rate(bpm)                          0.0052
+ 25. I   beta-HCG(mIU/mL)                     0.0051
+ 26. Hip(inch)                                0.0050
+ 27. PRL(ng/mL)                               0.0050
+ 28. Waist:Hip Ratio                          0.0049
+ 29. Vit D3 (ng/mL)                           0.0049
+ 30. Hb(g/dl)                                 0.0047
+ 31. Hair loss(Y/N)                           0.0046
+ 32. Height(Cm)                               0.0039
+ 33. PRG(ng/mL)                               0.0038
+ 34. Reg.Exercise(Y/N)                        0.0029
+ 35. Blood Group                              0.0025
+ 36. II    beta-HCG(mIU/mL)                   0.0024
+ 37. RR (breaths/min)                         0.0021
+ 38. No. of abortions                         0.0016
+ 39. BP _Systolic (mmHg)                      0.0012
+ 40. BP _Diastolic (mmHg)                     0.0010
+ 41. Pregnant(Y/N)                            0.0008

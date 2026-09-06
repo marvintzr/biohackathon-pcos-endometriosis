@@ -1,0 +1,9 @@
+SHAP feature importance — endo model
+Mean absolute SHAP value across 10000 training rows
+
+  1. Hormone_Level_Abnormality                0.0893
+  2. Chronic_Pain_Level                       0.0863
+  3. BMI                                      0.0838
+  4. Age                                      0.0611
+  5. Infertility                              0.0469
+  6. Menstrual_Irregularity                   0.0464
