@@ -1,0 +1,21 @@
+BioHackathon app — setup for a new PC
+=====================================
+
+1. Unzip the whole "biohackathon-app" folder anywhere.
+
+2. Check the "data" folder contains BOTH files:
+   - (Main_Dataset)_PCOS_data_without_infertility.xlsx
+   - (Supplementary_Dataset)_structured_endometriosis_data.xlsx
+
+3. Install Python 3.10+ from https://www.python.org/ (check "Add to PATH").
+
+4. Double-click run.bat (or in PowerShell: cd to this folder, make sure pip install streamlit joblib scikit-learn pandas numpy matplotlib seaborn, then .\run.bat)
+
+5. Open http://localhost:8501 in your browser.
+
+When sending the zip to a friend:
+- INCLUDE: app.py, ml_pipeline.py, feature_stats.py, train.py, run.bat,
+           requirements.txt, data\ (both xlsx), models\ (optional — will retrain if missing)
+- EXCLUDE: .venv\ folder (very large — run.bat creates a new one)
+
+If models\ is missing, the app trains on first run (takes ~1–2 minutes).
